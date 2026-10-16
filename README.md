@@ -14,14 +14,16 @@ Users can select a role from a menu, such as:
 
 The project focuses on control flow, user input, and role-based program logic.
 
+
 ## 🛠️ Concepts Practiced
 
 - C++ fundamentals
 - `if` / `else` conditional statements
+- `switch` statements
 - User input and output
 - Variables and data types
 - Menu-driven program design
-- Input validation *(as implemented)*
+- Basic score validation (0–100 range)
 
 ## 💻 Getting Started
 
@@ -32,7 +34,7 @@ The project focuses on control flow, user input, and role-based program logic.
 ### Compile
 
 ```bash
-g++ main.cpp -o secure-gateway
+g++ secure-gateway.cpp -o secure-gateway
 ```
 
 ### Run on Linux
